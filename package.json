@@ -1,0 +1,41 @@
+{
+  "name": "ray-d-react",
+  "version": "1.0.0",
+  "description": "my own react boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack-dev-server --mode development --open --hot",
+    "build": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/raydcode/ray-d-react.git"
+  },
+  "keywords": [
+    "react",
+    "react-boilerplate"
+  ],
+  "author": "ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raydcode/ray-d-react/issues"
+  },
+  "homepage": "https://github.com/raydcode/ray-d-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
